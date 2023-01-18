@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* UNIFORM SITE STYLES */
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+    color: brown;
+}
+
+/* HEADER */
+.headerLogo {
+    height: 50px;
+    width: 50px;
+}
+
+.headerNavTopics a {
+    font-style: italic;
+}
+
+/* BODY */
+.sectionTitle {
+    text-align: center;
+}
+
+/* FEATURED */
+.featuredImage {
+    height: 250px;
+    width: 500px;
+}
+
+.featuredArrow {
+    font-size: 100px;
+}
+
+.featuredArrow:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.featuredText {
+    width: 300px;
+}
+
+.featuredOthers a {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+/* BUSINESS INFO */
+.businessBuildingImage {
+    height: 200px;
+    width: 300px;
+}
+
+/* ABOUT US */
+.aboutUsImage {
+    height: 200px;
+    width: 300px;
+}
+
+.aboutUsText {
+    width: fit-content;
+    height: fit-content;
+}
+
+/* CONTACT US */
+/* FOOTER */
+footer p {
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: white;
+}

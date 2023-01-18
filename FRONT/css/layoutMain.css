@@ -1,0 +1,69 @@
+/* UNIFORM SITE STYLES */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* BODY */
+.sectionLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+/* HEADER */
+.headerNav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* FEATURED */
+.featuredBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.featuredTiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tileConfig {
+    display: flex;
+    align-items: center;
+}
+.featuredOthers {
+    display: flex;
+    gap: 2rem;
+}
+
+.featuredOthers a {
+    padding: .5rem;
+}
+
+/* BUSINESS INFO*/
+.businessInfoBlock {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+/* ABOUT US */
+.aboutUsBlock {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    align-items: center;
+}
+
+/* CONTACT US */
+/* FOOTER */
