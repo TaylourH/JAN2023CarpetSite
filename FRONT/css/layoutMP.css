@@ -1,0 +1,74 @@
+/* UNIFORM SITE STYLES */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wholePage {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* BODY */
+.sectionTitle {
+    padding-bottom: .5rem;
+}
+
+.sectionLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* HEADER */
+header {
+    padding-top: .25rem;
+}
+
+.headerNav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.headerLogo {
+    padding-left: 1rem;
+}
+
+.headerNavTopics {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.headerNavTopics a {
+    padding: .35rem;
+}
+
+/* BODY */
+.wholePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.searchBar {
+    display: flex;
+    gap: 5rem;
+}
+
+.searchNav {
+    display: flex;
+    gap: .5rem;
+}
+
+.allProductsLayout {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: max-content;
+    gap: 1rem;
+}

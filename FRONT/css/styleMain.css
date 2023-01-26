@@ -41,6 +41,15 @@ header {
 }
 
 /* FEATURED */
+.mainProductsTiles {
+    text-align: center;
+}
+
+.mainProductsTiles img {
+    height: 250px;
+    width: 250px;
+}
+
 .featuredImage {
     height: 250px;
     width: 500px;
@@ -70,7 +79,7 @@ header {
 }
 
 .featuredOthers a {
-    background-color:slategray;
+    background-color: slategray;
     color: white;
     border-radius: 5px;
 }
@@ -121,6 +130,11 @@ header {
     color: lightseagreen;
     background-color: white;
     cursor: pointer;
+}
+
+.socialMediaLinks img {
+    height: 25px;
+    width: 25px;
 }
 
 /* FOOTER */
